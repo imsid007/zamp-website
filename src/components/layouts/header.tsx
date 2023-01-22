@@ -1,8 +1,16 @@
 import { ZAMP_LOGO } from "@/constants/images";
+import {
+  CAREERS,
+  HOME,
+  INVESTERS,
+  LOGIN,
+  SIGN_UP,
+  TEAM,
+} from "@/constants/navigation";
 import Image from "next/image";
 import Link from "next/link";
 
-export default function Header() {
+export default function Header({ activeMenu }: { activeMenu?: string }) {
   return (
     <div className="fixed top-6 w-full z-[100]">
       <div
@@ -10,28 +18,32 @@ export default function Header() {
         style={{ backdropFilter: "blur(4px)" }}
       >
         <div>
-          <Image src={ZAMP_LOGO} alt="Zamp logo" width="83" height="28" />
+          <Link href={HOME}>
+            <Image src={ZAMP_LOGO} alt="Zamp logo" width="83" height="28" />
+          </Link>
         </div>
         <div className="flex items-center text-sm">
-          <Link href="/team" className="p-5">
+          <Link
+            href={TEAM}
+            className={`p-5 ${activeMenu == "Team" && "text-BLUE_LIGHT"}`}
+          >
             Team
           </Link>
-          <Link href="/investors" className="p-5">
+          <Link
+            href={INVESTERS}
+            className={`p-5 ${activeMenu == "Investors" && "text-BLUE_LIGHT"}`}
+          >
             Investors
           </Link>
-          <Link href="#" className="p-5">
+          <Link href={CAREERS} className="p-5">
             Careers
           </Link>
-          <Link href="https://dashboard.zamp.finance/auth/login" legacyBehavior>
+          <Link href={LOGIN} legacyBehavior>
             <a target="_blank" rel="noreferrer" className="p-5">
               Login
             </a>
           </Link>
-
-          <Link
-            href="https://dashboard.zamp.finance/auth/signup"
-            legacyBehavior
-          >
+          <Link href={SIGN_UP} legacyBehavior>
             <a target="_blank" rel="noreferrer">
               <button className="bg-black text-white py-2.5 px-6 rounded-full">
                 Sign Up
