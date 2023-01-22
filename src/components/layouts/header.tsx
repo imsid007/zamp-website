@@ -60,7 +60,7 @@ export default function Header({ activeMenu }: { activeMenu?: string }) {
         </div>
 
         <div
-          className="hidden m-5 md:block mobile-menu"
+          className="hidden mx-2 my-5 md:block mobile-menu"
           onClick={() => {
             setShowSlider(!showSlider);
           }}
