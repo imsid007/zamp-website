@@ -7,12 +7,12 @@ import Image from "next/image";
 const Investers = () => {
   return (
     <Layout activeMenu="Investors">
-      <div className="max-w-[1100px] m-auto">
-        <div className="w-full text-center mt-44">
+      <div className="max-w-[1100px] m-auto lg:px-10">
+        <div className="w-full text-center mt-44 sm:mt-24">
           <h1 className="text-3xl mb-6">
             Our lead <span className="gradient-text">Investor</span>
           </h1>
-          <div className="w-full m">
+          <div className="w-full sm:max-w-[80%] sm:m-auto">
             <Image
               src={SEQUOIA_COLOR_LOGO}
               alt="sequoia logo"

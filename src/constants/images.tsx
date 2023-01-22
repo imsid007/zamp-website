@@ -3,6 +3,7 @@ export const SEQUOIA_LOGO = "/images/logos/sequoia-logo.png";
 export const SEQUOIA_COLOR_LOGO = "/images/logos/sequoia-color-logo.png";
 export const TC_LOGO = "/images/logos/tc-logo.png";
 export const LINKDIN = "/images/logos/linkdin-logo.svg";
+export const MENU = "/images/logos/menu.png";
 
 export const BG_GRID = "/images/backgrounds/bg-grid.svg";
 export const BG_GRADIENT = "/images/backgrounds/bg-gradient.svg";

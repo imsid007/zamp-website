@@ -5,8 +5,8 @@ import Link from "next/link";
 const GetStarted = () => {
   return (
     <div className="bg-[#f4f2ef] flex justify-center w-full p-8">
-      <div className="max-w-[853px] bg-white flex rounded-2xl mb-20">
-        <div className="p-14 ">
+      <div className="max-w-[853px] bg-white flex rounded-2xl mb-20 sm:mb-10 sm:pl-5 sm:flex-col">
+        <div className="p-14 sm:p-0">
           <div className="text-2xl mb-2.5 mt-5">
             Get started in less than 10 mins
           </div>

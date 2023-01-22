@@ -45,9 +45,9 @@ const TeamList = () => {
           {"Ex-Head of APAC, Uber"}
         </div>
       </div>
-      <div className="w-full flex justify-between flex-wrap mt-14 mb-28">
+      <div className="w-full flex justify-between flex-wrap mt-14 md:mt-0 mb-28">
         {TEAM_LIST.map((person, idx) => (
-          <div key={idx} className="w-[33%]">
+          <div key={idx} className="w-[33%] lg:w-[50%] sm:w-[100%]">
             <TeamMember
               imageUrl={person.imageUrl}
               name={person.name}

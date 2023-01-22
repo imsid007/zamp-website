@@ -11,7 +11,7 @@ const AdvisorList = () => {
       </h1>
       <div className="w-full flex flex-wrap justify-around">
         {ADVISORS_LIST.map((person, idx) => (
-          <div className="w-[33%]" key={idx}>
+          <div className="w-[33%] lg:w-[50%] sm:w-[50%]" key={idx}>
             <TeamMember
               imageUrl={person.imageUrl}
               name={person.name}

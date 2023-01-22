@@ -11,7 +11,7 @@ import Link from "next/link";
 const Team = () => {
   return (
     <Layout activeMenu="Team">
-      <div className="w-full text-center mt-44">
+      <div className="w-full text-center mt-44 md:mt-24">
         <TeamList />
         <AdvisorList />
       </div>
