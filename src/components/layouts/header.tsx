@@ -81,8 +81,8 @@ export default function Header({ activeMenu }: { activeMenu?: string }) {
           >
             Investors
           </Link>
-          <Link href={CAREERS} className="p-5" legacyBehavior>
-            <a target="_blank" rel="noreferrer">
+          <Link href={CAREERS} className="" legacyBehavior>
+            <a target="_blank" rel="noreferrer" className="p-5">
               Careers
             </a>
           </Link>
