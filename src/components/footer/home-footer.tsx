@@ -6,7 +6,7 @@ const HomeFooter = () => {
   return (
     <div className="bg-[#f4f2ef] w-full">
       <div className=" flex justify-between p-8 max-w-[900px] mb-10 m-auto md:flex-col">
-        <div className="w-[100%]">
+        <div className="w-[15%] md:w-[100%]">
           <Image
             src={ZAMP_LOGO}
             alt="Zamp logo"
