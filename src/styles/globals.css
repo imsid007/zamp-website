@@ -67,7 +67,7 @@ body {
 
 .motion-animation{
   animation-name: motion;
-  animation-duration: 2s;
+  animation-duration: 1.2s;
   transform-style: preserve-3d;
 }
 
