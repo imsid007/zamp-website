@@ -5,7 +5,7 @@ import Link from "next/link";
 const HeroBanner = () => {
   return (
     <div className="hero-banner-container text-center pt-36 lg:px-12">
-      <h1 className="text-[42px] text font-normal leading-[65px] tracking-wide sm:text-2xl">
+      <h1 className="text-[42px]  text font-normal leading-[65px] tracking-wide sm:text-2xl">
         Earn up to 4.8%* annually on your idle cash
       </h1>
       <div className="text-GRAY_1 mt-4 text-lg	font-light mb-4 sm:text-xs">
@@ -34,7 +34,7 @@ const HeroBanner = () => {
         />
       </div>
       <div className="relative max-h-[400px] sm:max-h-[140px] flex justify-center overflow-hidden z-10">
-        <div className="sm:px-8">
+        <div className="">
           <Image
             src={DASHBOARD_SNAPSHOT}
             alt="sequoia logo"
