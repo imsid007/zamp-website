@@ -8,7 +8,7 @@ interface InvesterWidgetProps {
 
 const InvesterWidget = ({ name, position, imageUrl }: InvesterWidgetProps) => {
   return (
-    <div className="w-[33%] flex items-middle mb-16 md:w-[50%] sm:w-[100%] sm:flex-col sm:justify-center sm:items-center">
+    <div className="w-[33%] flex items-middle mb-16 lg:w-[50%] sm:w-[100%] sm:flex-col sm:justify-center sm:items-center">
       <Image
         src={imageUrl}
         height={140}

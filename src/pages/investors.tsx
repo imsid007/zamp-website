@@ -1,5 +1,6 @@
 import InvesterWidget from "@/components/investers/invester-widget";
 import Layout from "@/components/layouts";
+import PageTitle from "@/components/page-title";
 import { DARA, SEQUOIA_COLOR_LOGO } from "@/constants/images";
 import { ANGEL_LIST } from "@/constants/team";
 import Image from "next/image";
@@ -7,7 +8,8 @@ import Image from "next/image";
 const Investers = () => {
   return (
     <Layout activeMenu="Investors">
-      <div className="max-w-[1100px] m-auto lg:px-10">
+      <PageTitle title="Our lead Investor" />
+      <div className="max-w-[1100px] m-auto xl:px-10">
         <div className="w-full text-center mt-44 sm:mt-24">
           <h1 className="text-3xl mb-6">
             Our lead <span className="gradient-text">Investor</span>
