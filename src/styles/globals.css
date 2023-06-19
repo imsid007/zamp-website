@@ -11,6 +11,9 @@ body {
   color: #090909;
 }
 
+.progress-bar {
+  transform-origin: 0%;
+}
 
 .hero-banner-container{
   background-image: url(/images/backgrounds//bg-grid.svg),url(/images/backgrounds/bg-gradient.svg) ;
@@ -102,4 +105,9 @@ body {
     margin-top: 0px;
   
   }
+}
+
+.open-account-container{
+  background-image: url(/images/assets/open-account-background.png) ;
+  background-size: cover;
 }

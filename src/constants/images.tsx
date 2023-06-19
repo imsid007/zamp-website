@@ -4,6 +4,7 @@ export const SEQUOIA_COLOR_LOGO = "/images/logos/sequoia-color-logo.png";
 export const TC_LOGO = "/images/logos/tc-logo.png";
 export const LINKDIN = "/images/logos/linkdin-logo.svg";
 export const MENU = "/images/logos/menu.png";
+export const MAIL = "/images/logos/mail.svg";
 
 export const BG_GRID = "/images/backgrounds/bg-grid.svg";
 export const BG_GRADIENT = "/images/backgrounds/bg-gradient.svg";
@@ -16,12 +17,20 @@ export const ACCESS_YOUR_FUNDS_AT_ANY_TIME =
 export const EARN_HIGHER_YEILD = "/images/how-it-works/earn-higher-yield.svg";
 export const HAVE_FULL_TRANSPARENCE =
   "/images/how-it-works/have-full-transparency.svg";
-
 export const INDUSTRY_LEADING_PARTNERS =
   "/images/enterprise-grade/Industry-leading-partners.webp";
 export const NO_POOLED_ASSETS = "/images/enterprise-grade/no-pooled-assets.png";
-export const SAFTER_FIRST =
+export const SAFTY_FIRST =
   "/images/enterprise-grade/Safety-first-in-everything-we-do.png";
+export const ROMA_LOGO = "/images/logos/roma.webp";
+export const GLOBAL_BUSSINESS = "/images/assets/global-business.svg";
+export const ROMA_DASHBOARD = "/images/assets/roma-dashboard-snapshot.webp";
+
+//roma about images
+export const S1 = "/images/assets/roma-about/s1.svg";
+export const S2 = "/images/assets/roma-about/s2.svg";
+export const S3 = "/images/assets/roma-about/s3.svg";
+export const S4 = "/images/assets/roma-about/s4.png";
 
 //team images
 export const AMIT = "/images/team/amit.png";

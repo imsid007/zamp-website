@@ -41,7 +41,7 @@ const HeroBanner = () => {
       </div>
 
       <div className="relative fade-animation max-h-[400px] sm:max-h-[140px] flex justify-center overflow-hidden z-10">
-        <div className="">
+        <div>
           <Image
             src={DASHBOARD_SNAPSHOT}
             alt="sequoia logo"

@@ -1,7 +1,7 @@
 import {
   INDUSTRY_LEADING_PARTNERS,
   NO_POOLED_ASSETS,
-  SAFTER_FIRST,
+  SAFTY_FIRST,
 } from "@/constants/images";
 import Image from "next/image";
 
@@ -44,7 +44,7 @@ const EnterpriseGrade = () => {
         </div>
         <div className="text-left mx-5 sm:m-auto ">
           <Image
-            src={SAFTER_FIRST}
+            src={SAFTY_FIRST}
             alt="ACCESS_YOUR_FUNDS_AT_ANY_TIME"
             width={260}
             height={250}
