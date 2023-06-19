@@ -29,8 +29,8 @@ const PrivacyPolicy = () => {
           corporate/association of persons to act on their behalf and accept the
           terms of this Privacy Policy on their behalf.
         </div>
-        {PRIVACY_POLICY.map((term) => (
-          <div className="mb-8">
+        {PRIVACY_POLICY.map((term, idx) => (
+          <div className="mb-8" key={idx}>
             <div className="font-semibold mb-3 ">{term.title}</div>
             <div className="text-sm font-light leading-[21px]">
               {term.description}

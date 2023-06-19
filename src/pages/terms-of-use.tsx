@@ -22,8 +22,8 @@ const TermsOfUse = () => {
           All of the other Site Policies are incorporated by reference into
           these Terms.
         </div>
-        {TERMS_OF_USE.map((term) => (
-          <div className="mb-8">
+        {TERMS_OF_USE.map((term, idx) => (
+          <div className="mb-8" key={idx}>
             <div className="font-semibold mb-3">{term.title}</div>
             <div className="text-sm font-light leading-[21px]">
               {term.description}

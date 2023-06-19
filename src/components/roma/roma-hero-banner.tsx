@@ -17,7 +17,7 @@ const RomaHeroBanner = () => {
           />
         </div>
         <h2 className="mt-12 font-light text-[30px] m-auto sm:text-[20px] sm:max-w-[60%] sm:mt-6">
-          The only global banking solution you'll need
+          {`The only global banking solution you'll need`}
         </h2>
         <h3 className="text-[#717171] my-6 font-light max-w-[750px] m-auto sm:text-xs sm:my-4">
           A regulated and compliant banking solution for traditional and digital
